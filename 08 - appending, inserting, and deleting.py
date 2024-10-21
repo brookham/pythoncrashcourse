@@ -43,5 +43,10 @@ print("New list version 5:", new_list)
 
 # BREAK IT:
 # What happens if we try to del at an index that doesn't exist (an index too high)?
+# del new_list[5]
+# out  of range
 # What happens if we try to remove a value that doesn't exist in the list?
+new_list.remove("toast")
+# x is not in list
 # Why do the errors occur?
+#because the things are not being found

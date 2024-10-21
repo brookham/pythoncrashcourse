@@ -39,3 +39,4 @@ print("12.",y,"<=",z, y<=z)
 # BREAK IT
 # What happens if instead of writing x==z, we write x=z? What happens to x?
 # Remember the difference between the functionality of = vs. ==
+#it will replace the value of x with the value of z

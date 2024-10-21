@@ -44,12 +44,18 @@ print("The value of string4 is:", string4)
 
 # What happens if we multiply a string by an integer?
 # for example:
-# print("Hello " * 10)
+print("Hello " * 10)
 # try it out! It actually works!
 
 
 # BREAK IT:
 # What happens if you try to subtract a string from a string?
+# print("hello" - "world")
+# does not work
 # What happens if you multiply a string by a string?
+# print("hello" * "world")
+# does not work
 # What happens if you divide an integer by zero?
+# sero deivision error
 # Why do these errors occur?
+# becuase you cannot subtract or multiply strings by string and computer does nto understand 0/0

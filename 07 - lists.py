@@ -35,7 +35,7 @@ print("Index 3 of my_list is:",my_list[3])
 # What happens if we try to go negative with the index?
 # Try printing my_list[-1]
 
-# print(my_list[-1])
+print(my_list[-1])
 
 # Wow! It actually works! you can count backwards through a list using negative numbers.
 
@@ -53,4 +53,6 @@ print(my_list)
 
 # BREAK IT
 # what happens if you try a number that is higher than the highest index of 5?
+print(my_list[8])
 # Why do you get the error?
+# index is out of range

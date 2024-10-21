@@ -2,10 +2,10 @@
 # a variable holds a value, then instead of using that value, the variable can be used to represent it.
 # a variable declaration involves writing the variable name on the left, equals sign in the middle, and the value on the right
 
-x = "Hello"
+1 = "Hello"
 y = "World"
-
-print(x,y)
+z = y
+print(x,y,z)
 
 # as you can see the x and y are the variable names, neither of which are surrounded by parenthesis. However, the value on the right does have parenthesis.
 
@@ -20,7 +20,7 @@ print(x,y)
 # z = y
 # print(x,y,z)
 # What prints now?
-
+# hello world world
 # You should see "Hello World World". This is because a variable can also be assigned from another variable! Notice that, in this case the y didn't have quotation marks around it even though it was on the right side.
 
 # What happens if we do use quotation marks?
@@ -37,3 +37,4 @@ print(x,y)
 # For example: 
 # 1 = "Hello"
 # Why do you think the error occurs?
+# cannot assing literal.
